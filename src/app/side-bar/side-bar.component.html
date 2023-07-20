@@ -1,0 +1,25 @@
+<section class="layout">
+  <div class="sidebar"> <!-- 側邊欄 -->
+    <!-- <i class="pi pi-user" style="font-size: 2.5rem"
+    [routerLink]="['/app-breaking-news']"
+    routerLinkActive="router-link-active"
+    [queryParams]="{title: 'page1ㄅ111', params: '12311', componentName: 'page1'}"
+    >
+    </i> -->
+    <button class="pi pi-home" style="font-size: 2.5rem" ></button>
+    <br>
+    <button class="pi pi-user" style="font-size: 2.5rem"></button>
+    <br>
+    <button class="pi pi-bell" style="font-size: 2.5rem" [routerLink]="['/breaking-news']" routerLinkActive="active" [queryParams]="{title: 'page1ㄅ111', params: '12311', componentName: 'page1'}"></button>
+    <br>
+    <button class="pi pi-table" style="font-size: 2.5rem" ></button>
+    <br>
+    <button class="pi pi-sign-out" style="font-size: 2.5rem" ></button>
+  </div>
+
+  <div class="body"> <!-- 主內容，給其他component路由進來的 -->
+    <router-outlet></router-outlet>
+    <!-- routerlink給sideBar被點選的功能 -->
+  </div>
+
+</section>
