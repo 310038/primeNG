@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { PanelModule } from 'primeng/panel';
@@ -21,8 +21,6 @@ import { PasswordModule } from 'primeng/password';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent implements OnInit {
-
-
   loginForm!: FormGroup;
 
   submitted = false;
@@ -43,7 +41,14 @@ export class LoginComponent implements OnInit {
   }
 
   @Input() title !: string;
-  load(){
 
+  @Output() doload = new EventEmitter();
+
+  loadsuccess = false;
+  load(){
+    this.loadsuccess=true;
+    this.doload.emit(this.loadsuccess);
   }
+
+
 }

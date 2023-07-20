@@ -1,6 +1,16 @@
 import { Routes } from '@angular/router';
 
 export const routes: Routes = [
+  // {
+  //   path: '',
+  //   component: LayoutComponent,
+  //   children: [
+  //     {
+  //       path: 'home',
+  //       component: HomeComponent
+  //     }
+  //   ]
+  // },
   {
     path: 'breaking-news',
     loadComponent:() =>
