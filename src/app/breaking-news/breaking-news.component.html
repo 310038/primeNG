@@ -1,2 +1,122 @@
-<p-button label="返回" styleClass="p-button-rounded"></p-button>
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, tempora. Magnam, nulla soluta autem aut vero aperiam numquam dicta neque exercitationem corrupti nisi animi eligendi repudiandae recusandae? Odio, temporibus sunt.
+<div class="layout">
+  <!-- header -->
+  <div class="card">
+    <div class="flex card-container indigo-container">
+      <p-button class="test" [style]="{border:'none'}">返回</p-button>
+      <div id="breakingNews">最新消息</div>
+      <input id="searchBar" placeholder="查詢"  >
+    </div>
+  </div>
+
+  <!-- body -->
+  <!-- unfinsihed -->
+  <div>
+    <div id="unfinsihed">未完成</div>
+    <p-splitter [style]="{ height: '200px' }" styleClass="mb-5" layout="vertical" >
+      <ng-template pTemplate >
+          <div class="col flex align-items-center  w-screen ">
+            <div class="unfinsihedButton">NEW</div>
+            <div class="unfinsihedDate">2023-07-05 11:11</div>
+            <div class="unfinsihedTitle">您目前有22張簽核表單需簽核。</div>
+            <a href="">請點選進入</a>
+          </div>
+      </ng-template>
+
+      <ng-template pTemplate>
+          <div class="col flex align-items-center ">
+            <div class="unfinsihedButton">NEW</div>
+            <div class="unfinsihedDate">2023-07-05 11:11</div>
+            <div class="unfinsihedTitle">您目前有22張簽核表單需簽核。</div>
+            <a href="">請點選進入</a>
+          </div>
+      </ng-template>
+
+      <ng-template pTemplate>
+        <div class="col flex align-items-center ">
+          <div class="unfinsihedButton">NEW</div>
+          <div class="unfinsihedDate">2023-07-05 11:11</div>
+          <div class="unfinsihedTitle">您目前有22張簽核表單需簽核。</div>
+          <a href="">請點選進入</a>
+        </div>
+    </ng-template>
+
+    </p-splitter>
+  </div>
+
+  <!-- generalNews -->
+  <div>
+    <div id="generalNews">一般消息</div>
+    <p-splitter [style]="{ height: '200px' }" styleClass="mb-5" layout="vertical">
+      <ng-template pTemplate>
+          <div class="col flex align-items-center  w-screen">
+            <div class="unfinsihedButton">NEW</div>
+            <div class="unfinsihedDate">2023-07-05 11:11</div>
+            <div class="unfinsihedTitle">您有衛材申請待審核。</div>
+          </div>
+      </ng-template>
+
+      <ng-template pTemplate>
+          <div class="col flex align-items-center ">
+            <div class="unfinsihedButton">NEW</div>
+            <div class="unfinsihedDate">2023-07-05 11:11</div>
+            <div class="unfinsihedTitle">您有衛材申請待審核。</div>
+          </div>
+      </ng-template>
+
+      <ng-template pTemplate>
+        <div class="col flex align-items-center ">
+          <div class="unfinsihedButton">NEW</div>
+          <div class="unfinsihedDate">2023-07-05 11:11</div>
+          <div class="unfinsihedTitle">您有衛材申請待審核。</div>
+        </div>
+    </ng-template>
+
+    </p-splitter>
+  </div>
+
+  <!-- finished -->
+  <div>
+    <div id="finished">已完成</div>
+    <p-splitter [style]="{ height: '200px' }" styleClass="mb-5" layout="vertical">
+      <ng-template pTemplate>
+          <div class="col flex align-items-center justify-content-left w-screen">
+            <div class="unfinsihedButton">NEW</div>
+            <div class="unfinsihedDate">2023-07-05 11:11</div>
+            <div class="unfinsihedTitle">您有衛材申請待審核。</div>
+          </div>
+      </ng-template>
+
+    <ng-template pTemplate>
+      <div class="col flex align-items-center ">
+        <div class="unfinsihedButton">NEW</div>
+        <div class="unfinsihedDate">2023-07-05 11:11</div>
+        <div class="unfinsihedTitle">您目前有22張簽核表單需簽核。</div>
+        <a href="">請點選進入</a>
+      </div>
+  </ng-template>
+
+
+  <ng-template pTemplate>
+    <div class="col flex align-items-center ">
+      <div class="unfinsihedButton">NEW</div>
+      <div class="unfinsihedDate">2023-07-05 11:11</div>
+      <div class="unfinsihedTitle">您目前有22張簽核表單需簽核。</div>
+      <a href="">請點選進入</a>
+    </div>
+</ng-template>
+
+<ng-template pTemplate>
+  <div class="col flex align-items-center ">
+    <div class="unfinsihedButton">NEW</div>
+    <div class="unfinsihedDate">2023-07-05 11:11</div>
+    <div class="unfinsihedTitle">您目前有22張簽核表單需簽核。</div>
+    <a href="">請點選進入</a>
+  </div>
+</ng-template>
+
+
+
+    </p-splitter>
+  </div>
+
+</div>

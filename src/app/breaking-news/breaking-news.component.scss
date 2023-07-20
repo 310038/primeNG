@@ -1,0 +1,334 @@
+
+:host ::ng-deep .mb-5.p-splitter.p-component.p-splitter-vertical {
+    background-color: white;
+}
+:host ::ng-deep {
+   .p-button  {
+    border-color: #BFC9C2;
+    color:black;
+  }
+}
+.styleClass {
+  align-items: center;
+}
+
+
+:host ::ng-deep .test{
+  .p-button  {
+   border-color: #BFC9C2;
+   color:black;
+ }
+}
+
+:host ::ng-deep .p-card  {
+  margin-bottom:10px;
+  display: flex;
+justify-content: space-between;
+align-items: center;
+align-content: center;
+row-gap: 24px;
+align-self: stretch;
+flex-wrap: wrap;
+}
+.return {
+  width: 80px;
+  color: #191C1A;
+  padding-left: 24px;
+  padding-right: 24px;
+  background: black !important;
+  border-radius: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+
+
+////以下自己做的
+.layout{
+  display: flex;
+  width: 1860px;
+  // height: 1080px;
+  // padding: 40px 38px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex-shrink: 0;
+  // background-color:rgb(239, 236, 236);
+}
+
+:host ::ng-deep .p-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  row-gap: 24px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+:host ::ng-deep .p-button {
+  display: flex;
+  height: 40px;
+  padding: 0px 24px;
+  align-items: center;
+  border-radius: 20px;
+  background: var(--his-sys-light-secondary-container, #CFE9DA);
+}
+
+#breakingNews{
+  color: var(--his-sys-light-on-surface, #191C1A);
+  /* HIS/headline/medium */
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 128.571% */
+}
+
+#space{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  row-gap: 24px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+
+
+#searchBar {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  height: 40px;
+  padding: 4px 140px 4px 12px;
+  align-items: center;
+  gap: 10px;
+  //style
+  border-radius: 20px;
+  border: 1px solid var(--his-sys-light-outline-variant, #BFC9C2);
+  background: v
+}
+
+
+//frame1
+.frame1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+#unfinsihed{
+  display: flex;
+  // width: 100px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  //text
+  color: var(--his-sys-light-on-tertiary-container, #2E1600);
+  text-align: center;
+
+/* HIS/label/large */
+  font-family: Noto Sans TC;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 111.111% */
+
+  //label
+  //label-layout
+  display: flex;
+  width: 100px;
+  padding: 10px 0px;
+  justify-content: center;
+  align-items: center;
+  //label-style
+  border-radius: 8px 8px 0px 0px;
+  background: var(--his-sys-light-tertiary-container, #FFDCC0);
+}
+
+.unfinsihedFrame1 {
+  //layout
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  //style
+  border-radius: 12px;
+  background: var(--his-sys-light-surface-container-lowest, #FFF);
+
+/* Card Shadow */
+box-shadow: 0px 2px
+1px 0px rgba(111, 121, 121, 0.25), 0px -1px 1px 1px rgba(111, 121, 121, 0.10);
+}
+
+.unfinsihedFrame2 {
+  //layout
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.unfinsihedContent1 {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.unfinsihedButton {
+  //layout
+  display: flex;
+  height: 28px;
+  padding: 0px 24px;
+  align-items: center;
+
+  //style
+  border-radius: 20px;
+  background: var(--his-sys-light-error, #BA1A1A);
+  color:white;
+}
+
+.unfinsihedDate {
+  padding: 0px 24px;
+  color: var(--his-sys-light-on-surface, #191C1A);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.unfinsihedTitle {
+  color: var(--his-sys-light-on-surface, #191C1A);
+
+  /* HIS/body/large */
+  font-family: Noto Sans TC;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+}
+
+.unfinsihedTitle {
+  color: var(--his-sys-light-on-surface, #191C1A);
+
+/* HIS/body/large */
+font-family: Noto Sans TC;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+}
+
+link {
+  color: #0969C2;
+  font-family: Noto Sans TC;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  text-decoration-line: underline;
+}
+
+.divider {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+}
+
+#generalNews {
+  display: flex;
+  // width: 100px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  //text
+  color: var(--his-sys-light-on-tertiary-container, #FFF);
+  text-align: center;
+
+/* HIS/label/large */
+  font-family: Noto Sans TC;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 111.111% */
+
+  //label
+  //label-layout
+  display: flex;
+  width: 100px;
+  padding: 10px 0px;
+  justify-content: center;
+  align-items: center;
+  //label-style
+  border-radius: 8px 8px 0px 0px;
+  background: var(--his-sys-light-tertiary-container, #4d5033);
+//   display: flex;
+//   width: 100px;
+//   justify-content: center;
+//   align-items: flex-start;
+//   flex-shrink: 0;
+//   //text
+//   color: var(--his-sys-light-on-tertiary-container, #2E1600);
+//   text-align: center;
+
+// /* HIS/label/large */
+//   font-family: Noto Sans TC;
+//   font-size: 18px;
+//   font-style: normal;
+//   font-weight: 500;
+//   line-height: 20px; /* 111.111% */
+
+//   //label
+//   //label-layout
+//   display: flex;
+//   width: 100px;
+//   padding: 10px 0px;
+//   justify-content: center;
+//   align-items: center;
+//   //label-style
+//   border-radius: 8px 8px 0px 0px;
+//   background: var(--his-sys-light-tertiary-container, #10270c);
+}
+
+
+#finished {
+  display: flex;
+  width: 100px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  //text
+  color: var(--his-sys-light-on-tertiary-container, #2d4621);
+  text-align: center;
+
+/* HIS/label/large */
+  font-family: Noto Sans TC;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 111.111% */
+
+  //label
+  //label-layout
+  display: flex;
+  width: 100px;
+  padding: 10px 0px;
+  justify-content: center;
+  align-items: center;
+  //label-style
+  border-radius: 8px 8px 0px 0px;
+  background: var(--his-sys-light-tertiary-container, #85bb9e);
+}
+

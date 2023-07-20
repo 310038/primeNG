@@ -1,15 +1,77 @@
-.layout {
-  width: 1366px;
-  height: 768px;
 
-  display: grid;
-  grid:
-    "sidebar body" 1fr
-    / auto 1fr;
-  gap: 8px;
+:host ::ng-deep button[class~="pi"] {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+  border: 0;
+  background-color: #cfcfcf;
+
 }
 
-.sidebar { grid-area: sidebar; }
-.body { grid-area: body; }
+.sidebar{
+  display: flex;
+  height: 1080px;
+  align-items: flex-end;
+}
+
+
+
+
+.layout{ //成功讓sidebar的按鈕從底部開始排列
+  display: flex;
+  height: 1080px;
+  width: 60px;
+  align-items: flex-end;
+  background-color: #cfcfcf;
+}
+
+
+
+
+button{
+  display: flex;
+}
+.sidebar {
+  // width: 1366px;
+  // height: 768px;
+
+  // display: grid;
+  // grid:
+  //   "sidebar body" 1fr
+  //   / auto 1fr;
+  // gap: 8px;
+
+  // display: flex;
+  // width: 1920px;
+  // justify-content: center;
+  // align-items: center;
+  // background: var(--his-sys-light-surface, #F8F9F7);
+  // display: flex;
+  //sideBar-top
+  flex: 1 0 0;
+
+  //sideBar-footer
+  display: flex;
+  width: 60px;
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+}
+
+// .sidebar { grid-area: sidebar; }
+.body { //別的component路由進來，所佔的空間只能這麼大
+// grid-area: body;
+display: flex;
+width: 1860px;
+height: 1080px;
+padding: 40px 38px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+flex-shrink: 0;
+
+}
 
 

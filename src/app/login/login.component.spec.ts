@@ -1,14 +1,14 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { LoginComponent } from './login.component';
-
+import { ButtonModule } from 'primeng/button';
 describe('LoginComponent', () => {
   let component: LoginComponent;
   let fixture: ComponentFixture<LoginComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [LoginComponent]
+      imports: [LoginComponent,ButtonModule]
     });
     fixture = TestBed.createComponent(LoginComponent);
     component = fixture.componentInstance;

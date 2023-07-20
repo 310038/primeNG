@@ -1,25 +1,37 @@
-<section class="layout">
-  <div class="sidebar"> <!-- 側邊欄 -->
-    <!-- <i class="pi pi-user" style="font-size: 2.5rem"
-    [routerLink]="['/app-breaking-news']"
-    routerLinkActive="router-link-active"
-    [queryParams]="{title: 'page1ㄅ111', params: '12311', componentName: 'page1'}"
-    >
-    </i> -->
-    <button class="pi pi-home" style="font-size: 2.5rem" ></button>
-    <br>
+
+<section class="layout " >
+  <div>
+    <div>
+      <svg xmlns="http://www.w3.org/2000/svg"  width="54"  height="34" viewBox="0 0 24 24" fill="none">
+      <g clip-path="url(#clip0_1341_17561)">
+        <path d="M12 6.375C12 9.4816 9.53302 12 6.48982 12H0.979614V6.375C0.979614 3.26839 3.44661 0.75 6.48982 0.75C9.53302 0.75 12 3.26839 12 6.375Z" fill="#17CF97"/>
+        <path d="M12 17.625C12 14.5184 14.467 12 17.5102 12H23.0204V17.625C23.0204 20.7316 20.5534 23.25 17.5102 23.25C14.467 23.25 12 20.7316 12 17.625Z" fill="#17CF97"/>
+        <path d="M0.979614 17.625C0.979614 20.7316 3.44661 23.25 6.48982 23.25H12V17.625C12 14.5184 9.53302 12 6.48982 12C3.44661 12 0.979614 14.5184 0.979614 17.625Z" fill="#17CF97"/>
+        <path d="M23.0204 6.375C23.0204 3.26839 20.5534 0.75 17.5102 0.75H12V6.375C12 9.4816 14.467 12 17.5102 12C20.5534 12 23.0204 9.4816 23.0204 6.375Z" fill="#17CF97"/>
+      </g>
+      <defs>
+        <clipPath id="clip0_1341_17561">
+          <rect width="24" height="24" fill="white"/>
+        </clipPath>
+      </defs>
+      </svg>
+    </div>
+
+    <button class="pi pi-home" style="font-size: 2.5rem" [routerLink]="['/home-page']" routerLinkActive="active" ></button>
     <button class="pi pi-user" style="font-size: 2.5rem"></button>
-    <br>
-    <button class="pi pi-bell" style="font-size: 2.5rem" [routerLink]="['/breaking-news']" routerLinkActive="active" [queryParams]="{title: 'page1ㄅ111', params: '12311', componentName: 'page1'}"></button>
-    <br>
-    <button class="pi pi-table" style="font-size: 2.5rem" ></button>
-    <br>
-    <button class="pi pi-sign-out" style="font-size: 2.5rem" ></button>
+    <button class="pi pi-bell" style="font-size: 2.5rem" [routerLink]="['/breaking-news']" routerLinkActive="active" ></button>
+    <button class="pi pi-table" style="font-size: 2.5rem" [routerLink]="['/applications']" routerLinkActive="active" ></button>
+    <button class="pi pi-sign-out" style="font-size: 2.5rem" [routerLink]="['/login']" routerLinkActive="active" ></button>
   </div>
 
-  <div class="body"> <!-- 主內容，給其他component路由進來的 -->
+
+
+
+
+  <div class="body" > <!-- 主內容，給其他component路由進來的 -->
     <router-outlet></router-outlet>
     <!-- routerlink給sideBar被點選的功能 -->
   </div>
 
 </section>
+

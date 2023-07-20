@@ -1,79 +1,47 @@
+<body>
+  <form class="login">
+    <svg xmlns="http://www.w3.org/2000/svg" width="121" height="120" viewBox="0 0 121 120" fill="none">
+      <path d="M60.5 31.875C60.5 47.408 48.165 60 32.949 60H5.39795V31.875C5.39795 16.342 17.733 3.75 32.949 3.75C48.165 3.75 60.5 16.342 60.5 31.875Z" fill="#17CF97"/>
+      <path d="M60.5 88.125C60.5 72.592 72.835 60 88.051 60H115.602V88.125C115.602 103.658 103.267 116.25 88.051 116.25C72.835 116.25 60.5 103.658 60.5 88.125Z" fill="#17CF97"/>
+      <path d="M5.39795 88.125C5.39795 103.658 17.733 116.25 32.949 116.25H60.5V88.125C60.5 72.592 48.165 60 32.949 60C17.733 60 5.39795 72.592 5.39795 88.125Z" fill="#17CF97"/>
+      <path d="M115.602 31.875C115.602 16.342 103.267 3.75 88.051 3.75H60.5V31.875C60.5 47.408 72.835 60 88.051 60C103.267 60 115.602 47.408 115.602 31.875Z" fill="#17CF97"/>
+    </svg>
+      <h1>歡迎使用醫療系統</h1>
+        <p>帳號</p>
+        <input type="text" placeholder="帳號" pInputText >
+        <p>密碼</p>
+        <input type="password" placeholder="密碼" pInputText>
+        <!-- <input type="submit" value="登入"> -->
 
-帳號
-<div class="p-inputgroup">
-  <span class="p-inputgroup-addon">
-      <i class="pi pi-user"></i>
-  </span>
-  <input pInputText placeholder="Username" />
+        <p-button label="登入" [loading]="loading" (click)="load()"></p-button>
+    </form>
+</body>
+
+<!--
+<div>
+
+    帳號
+    <div class="p-inputgroup">
+    <span class="p-inputgroup-addon">
+        <i class="pi pi-user"></i>
+    </span>
+    <input pInputText placeholder="Username" />
+    </div>
+
+    <br>
+
+    密碼
+    <span class="p-float-label">
+    <p-password [(ngModel)]="password" [feedback]="false" [toggleMask]="true"></p-password>
+    <label for="password">Password</label>
+    </span>
+
+    <br>
+
+
+    <p-button label="忘記密碼？" styleClass="p-button-link"></p-button>
+    <br>
+    <button pButton pRipple label="登入" class="p-button-success"></button>
+
 </div>
-
-<br>
-
-密碼
-<span class="p-float-label">
-  <p-password [(ngModel)]="password" [feedback]="false" [toggleMask]="true"></p-password>
-  <label for="password">Password</label>
-</span>
-
-<br>
-
-
-<p-button label="忘記密碼？" styleClass="p-button-link"></p-button>
-<br>
-<button pButton pRipple label="登入" class="p-button-success"></button>
-
-
-
-
-
-<!-- <p-password [(ngModel)]="password" [toggleMask]="true"></p-password> -->
-
-
-<!-- 密碼
-<div class="p-inputgroup">
-  <span class="p-inputgroup-addon">
-      <i class="pi pi-user"></i>
-  </span>
-  <input pInputText placeholder="password" />
-</div> -->
-
-
-<!-- <form (ngSubmit)="onSubmit()" [formGroup]="loginForm">
-  <p-panel header="Login Example">
-      <div class="ui-grid ui-grid-responsive ui-grid-pad ui-fluid" style="margin: 10px 0px">
-          <div class="ui-grid-row">
-              <div class="ui-grid-col-2">
-                  Login:
-              </div>
-              <div class="ui-grid-col-6">
-                  <input pInputText type="text" formControlName="login" class="form-control" name="login">
-              </div>
-              <div class="ui-grid-col-4">
-                  <div [hidden]="loginForm.controls['login'].valid || !loginForm.controls['login'].dirty" class="alert alert-danger">
-                      Login is required
-                  </div>
-              </div>
-          </div>
-          <div class="ui-grid-row">
-              <div class="ui-grid-col-2">
-                  Password:
-              </div>
-              <div class="ui-grid-col-6">
-                  <input pInputText type="password" formControlName="password" class="form-control" name="password">
-              </div>
-              <div class="ui-grid-col-4">
-                  <div [hidden]="loginForm.controls['password'].valid || !loginForm.controls['password'].dirty" class="alert alert-danger">
-                      Password is required
-                  </div>
-              </div>
-          </div>
-          <div class="ui-grid-row">
-              <div class="ui-grid-col-2"></div>
-              <div class="ui-grid-col-6">
-                  <button pButton type="submit" label="Submit" [disabled]="!loginForm.valid"></button>
-              </div>
-              <div class="ui-grid-col-4"></div>
-          </div>
-      </div>
-  </p-panel>
-</form> -->
+-->

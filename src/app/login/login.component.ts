@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { PanelModule } from 'primeng/panel';
@@ -29,6 +29,7 @@ export class LoginComponent implements OnInit {
 
   password: any;
 
+  loading: boolean = false;
   ngOnInit() {
       this.loginForm = new FormGroup({
           'login': new FormControl('', Validators.required),
@@ -39,5 +40,10 @@ export class LoginComponent implements OnInit {
   onSubmit() {
       this.submitted = true;
       alert(JSON.stringify(this.loginForm.value));
+  }
+
+  @Input() title !: string;
+  load(){
+
   }
 }

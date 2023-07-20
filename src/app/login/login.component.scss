@@ -1,3 +1,64 @@
-.p-inputgroup-addon{
-  color: green;
+body {
+  font-family: roboto;
+  // background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.login {
+  border: 1px solid green;
+  border-radius: 10px;
+  background-color: white;
+  width: 400px;
+  color: green; //歡迎使用醫療系統的字體顏色
+  padding: 100px;
+  text-align: center;
+}
+.login input{
+  // display: block;
+  // margin: 10px auto;
+  display: flex;
+  width: 250px;
+  height: 48px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+p{
+  color: var(--his-sys-light-on-surface, #191C1A);
+  /* HIS/title/medium */
+  display: flex;
+  font-family: Noto Sans TC;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 140% */
+}
+// .login input[type="submit"]{ //鼠標指到「登入」按鈕時，變成手指，代表可以點擊
+//   cursor: pointer;
+//   border-radius: 20px;
+//   background: var(--his-sys-light-primary, #006C4F);
+// }
+
+:host ::ng-deep .p-button { //鼠標指到「登入」按鈕時，變成手指，代表可以點擊
+  // margin-bottom:10px;
+  // cursor: pointer;
+  // display: flex;
+  top: 30px; //跟密碼框的距離
+  height: 40px;
+  padding: 0px 24px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 20px;
+  background: var(--his-sys-light-primary, #006C4F);
+}
+
+
