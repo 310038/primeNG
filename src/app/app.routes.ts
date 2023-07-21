@@ -1,38 +1,19 @@
-import { Routes } from '@angular/router';
 
+import { Routes } from '@angular/router';
+import { LoginComponent } from './login/login.component';
+import { HomePageComponent } from './home/home-page/home-page.component';
+import {BreakingNewsComponent} from './home/breaking-news/breaking-news.component';
 export const routes: Routes = [
-  // {
-  //   path: '',
-  //   component: LayoutComponent,
-  //   children: [
-  //     {
-  //       path: 'home',
-  //       component: HomeComponent
-  //     }
-  //   ]
-  // },
   {
-    path: 'breaking-news',
-    loadComponent:() =>
-      import('./breaking-news/breaking-news.component').then((m) => m.BreakingNewsComponent),
-      title: "Breaking News"
+    path: '',
+    component: LoginComponent
   },
   {
-    path: 'home-page',
-    loadComponent:() =>
-      import('./home-page/home-page.component').then((m) => m.HomePageComponent),
-      title: "Breaking News"
-  },
-  {
-    path: 'applications',
-    loadComponent:() =>
-      import('./applications/applications.component').then((m) => m.ApplicationsComponent),
-      title: "Applications"
-  },
-  {
-    path:'login',
-    loadComponent:() =>
-      import('./login/login.component').then((m) => m.LoginComponent),
-      title: "Login"
+    path: 'home',
+    loadComponent:() => import('./home/home-page/home-page.component').then((m) => m.HomePageComponent),
+    loadChildren: () => import('src/app/home/home.routes').then(r => r.Homeroutes),
   }
 ];
+
+
+

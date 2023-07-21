@@ -14,7 +14,7 @@ import { ButtonModule } from 'primeng/button';
 })
 export class SideBarComponent {
   sidebarVisible: boolean = false;
-  
+
 
 
 }
