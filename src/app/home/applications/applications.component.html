@@ -1,1050 +1,553 @@
-<!-- 最新消息 -->
-<div style="width: 1784px; height: 268px; padding: 24px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
-  <div style="color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">最新消息</div>
-  <div style="align-self: stretch; height: 168px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 12px; display: flex">
-    <div style="justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
-      <div style="height: 24px; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
-        <div style="color: #191C1A; font-size: 16px; font-family: Roboto; font-weight: 400; line-height: 24px; word-wrap: break-word">2023-07-05 11:11</div>
+
+<p-toolbar>
+  <div class="p-toolbar-group-start">
+    <p-button label="返回" styleClass="p-button-rounded" ></p-button>
+    <p style="margin: 1rem;">程式集</p>
+  </div>
+
+  <div class="p-toolbar-group-end"  >
+      <span class="p-input-icon-left">
+        <i class="pi pi-search" ></i>
+        <input type="text" pInputText />
+      </span>
+      <p-button icon="pi pi-table" styleClass=" mr-2 ml-2" ></p-button>
+      <p-button icon="pi pi-bars" styleClass=" mr-2"></p-button>
+  </div>
+</p-toolbar>
+
+<p-scrollPanel [style]="{ width: '100%', height: '70%' }">
+<div class="banner" >
+  <div class="container">
+
+<div class="card">
+  <div class="flex flex-wrap align-items-center justify-content-start card-container mt-2">
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container ">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-green-700 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>肺臟移植表單</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
       </div>
-      <div style="color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 500; line-height: 24px; word-wrap: break-word">您目前有22張簽核表單需簽核。</div>
-      <div style="color: #0969C2; font-size: 16px; font-family: Noto Sans TC; font-weight: 400; text-decoration: underline; line-height: 24px; word-wrap: break-word">請點選進入</div>
     </div>
-    <div style="align-self: stretch; height: 0px; border: 0.50px #BFC9C2 solid"></div>
-    <div style="justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
-      <div style="height: 24px; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
-        <div style="color: #191C1A; font-size: 16px; font-family: Roboto; font-weight: 400; line-height: 24px; word-wrap: break-word">2023-07-03 09:32</div>
+
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container blue-container">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-green-700 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>精神醫學表單</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
       </div>
-      <div style="color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 500; line-height: 24px; word-wrap: break-word">您目前有14張簽核表單需簽核。</div>
-      <div style="color: #0969C2; font-size: 16px; font-family: Noto Sans TC; font-weight: 400; text-decoration: underline; line-height: 24px; word-wrap: break-word">請點選進入</div>
     </div>
-    <div style="align-self: stretch; height: 0px; border: 0.50px #BFC9C2 solid"></div>
-    <div style="justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
-      <div style="height: 24px; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
-        <div style="color: #191C1A; font-size: 16px; font-family: Roboto; font-weight: 400; line-height: 24px; word-wrap: break-word">2023-06-30 16:29</div>
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container mt-2">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-green-700 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>精神醫學表單</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
       </div>
-      <div style="color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 500; line-height: 24px; word-wrap: break-word">您目前有6張簽核表單需簽核。</div>
-      <div style="color: #0969C2; font-size: 16px; font-family: Noto Sans TC; font-weight: 400; text-decoration: underline; line-height: 24px; word-wrap: break-word">請點選進入</div>
     </div>
-    <div style="align-self: stretch; height: 0px; border: 0.50px #BFC9C2 solid"></div>
-    <div style="justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
-      <div style="height: 24px; justify-content: flex-start; align-items: flex-start; gap: 10px; display: flex">
-        <div style="color: #191C1A; font-size: 16px; font-family: Roboto; font-weight: 400; line-height: 24px; word-wrap: break-word">2023-06-25 13:47</div>
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container mt-2">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-green-700 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>肺臟移植表單</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
       </div>
-      <div style="color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 500; line-height: 24px; word-wrap: break-word">您有衛材申請待審核。</div>
     </div>
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container mt-2">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-green-700 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>病歷首頁</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container blue-container mt-2">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-green-700 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>門診醫囑系統</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container mt-2">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-green-700 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>心臟移植表單</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<p-divider></p-divider>
+
+
+<div class="card">
+  <div class="flex flex-wrap align-items-center justify-content-start card-container blue-container ">
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container blue-container">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-orange-300 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>肺臟移植表單</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container blue-container">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-orange-300 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>病歷首頁</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container blue-container">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-orange-300 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>門診醫囑系統</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container blue-container">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-orange-300 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>心臟移植表單</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<p-divider></p-divider>
+
+<div class="card">
+  <div class="flex flex-wrap align-items-center justify-content-start card-container mt-2">
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container ">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-blue-200 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>肺臟移植表單</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container blue-container">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-blue-200 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>精神醫學表單</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container mt-2">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-blue-200 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>精神醫學表單</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container mt-2">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-blue-200 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>肺臟移植表單</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container mt-2">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-blue-200 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>病歷首頁</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container blue-container mt-2">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-blue-200 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>門診醫囑系統</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container mt-2">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-blue-200 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>心臟移植表單</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<p-divider></p-divider>
+
+<div class="card">
+  <div class="flex flex-wrap align-items-center justify-content-start card-container mt-2">
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container ">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-pink-300 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>肺臟移植表單</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container blue-container">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-pink-300 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>精神醫學表單</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container mt-2">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-pink-300 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>精神醫學表單</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container mt-2">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-pink-300 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>肺臟移植表單</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container mt-2">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-pink-300 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>病歷首頁</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container blue-container mt-2">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-pink-300 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>門診醫囑系統</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="flex flex-wrap align-items-center justify-content-center card-container mt-2">
+          <div class="relative bg-gray-100 w-15rem h-9rem mx-3 my-3 md:my-0 border-round">
+              <div class="absolute top-0 left-0 bg-pink-300 text-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                  <i class="pi pi-user" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute top-0 right-0  ext-white font-bold flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-star" style="font-size: 2rem;"></i>
+              </div>
+              <div class="absolute bottom-0 left-0  ext-white font-bold flex align-items-center justify-content-center  border-round">
+                <p>心臟移植表單</p>
+              </div>
+              <div class="absolute bottom-0 right-0  ext-white  flex align-items-center justify-content-center w-4rem h-4rem border-round">
+                <i class="pi pi-chevron-right font-bold"></i>
+              </div>
+          </div>
+      </div>
+    </div>
+
   </div>
 </div>
 
 
-<!-- 我的最愛 -->
-<div style="width: 1784px; height: 204px; padding: 16px; border-radius: 12px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
-  <div style="color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">我的最愛</div>
-  <div style="justify-content: flex-start; align-items: flex-start; gap: 12px; display: inline-flex">
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #006C4F; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 24px; height: 26.67px; left: 4px; top: 1.33px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute">
-              <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-              <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            </div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #FFB877"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">門診醫囑系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
+<!-- <p-button >
+  <div>
+    <div style="background-color: green;">
+      <i class="pi pi-user" style="font-size: 2rem;"></i>
     </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #F97316; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 24px; height: 26.67px; left: 4px; top: 1.33px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute">
-              <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-              <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            </div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #FFB877"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">心臟移植表單</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
+
+    <div class=" flex justify-content-end flex-wrap align" >
+      <i class="pi pi-star "></i>
     </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #06B6D4; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 21.33px; height: 26.67px; left: 5.33px; top: 2.67px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute">
-              <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-              <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            </div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #FFB877"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">電子病歷查詢系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #EC4899; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 29.33px; height: 20px; left: 1.33px; top: 6.67px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute">
-              <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-              <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            </div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #FFB877"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">住院醫囑系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
+    <p>v 1.1.0</p>
+  </div>
+  <p-divider>we</p-divider>
+  <div style="display: flex;">
+    <i class="pi pi-chevron-right"></i>
+  </div>
+
+</p-button> -->
   </div>
 </div>
+</p-scrollPanel>
 
 
-<!-- 程式集 -->
-<div style="width: 1784px; height: 936px; padding: 16px; border-radius: 12px; overflow: hidden; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 24px; display: inline-flex">
-  <div style="align-self: stretch; justify-content: space-between; align-items: center; gap: 24px; display: inline-flex">
-    <div style="color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">程式集</div>
-    <div style="width: 220px; padding-top: 4px; padding-bottom: 4px; padding-left: 12px; padding-right: 140px; background: white; border-radius: 20px; overflow: hidden; border: 0.50px #BFC9C2 solid; justify-content: flex-start; align-items: center; gap: 10px; display: flex">
-      <div style="justify-content: flex-start; align-items: center; gap: 4px; display: flex">
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 18px; height: 18px; left: 3px; top: 3px; position: absolute; background: #707973"></div>
-        </div>
-        <div style="color: #707973; font-size: 20px; font-family: Noto Sans TC; font-weight: 500; line-height: 30px; word-wrap: break-word">查詢</div>
-      </div>
-    </div>
-  </div>
-  <div style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 12px; display: inline-flex">
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; background: white; justify-content: space-between; align-items: flex-start; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #006C4F; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 24px; height: 26.67px; left: 4px; top: 1.33px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">心臟移植表單</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; background: white; justify-content: space-between; align-items: flex-start; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #006C4F; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 21.33px; height: 25.75px; left: 5.33px; top: 3.03px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">肺臟移植表單</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; background: white; justify-content: space-between; align-items: flex-start; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #006C4F; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 24px; height: 26.67px; left: 4px; top: 1.33px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">精神醫學表單</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; background: white; justify-content: space-between; align-items: flex-start; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #006C4F; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 21.33px; height: 25.75px; left: 5.33px; top: 3.03px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">系統權限系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; background: white; justify-content: space-between; align-items: flex-start; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #006C4F; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 21.33px; height: 25.75px; left: 5.33px; top: 3.03px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; background: white; justify-content: space-between; align-items: flex-start; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #006C4F; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 21.33px; height: 25.75px; left: 5.33px; top: 3.03px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; background: white; justify-content: space-between; align-items: flex-start; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #006C4F; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 29.33px; height: 20px; left: 1.33px; top: 6.67px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 12px; display: inline-flex">
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; background: white; justify-content: space-between; align-items: flex-start; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #006C4F; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 26.67px; height: 24px; left: 2.67px; top: 4px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">病歷首頁</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; background: white; justify-content: space-between; align-items: flex-start; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #006C4F; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 26.67px; height: 24px; left: 2.67px; top: 4px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; background: white; justify-content: space-between; align-items: flex-start; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #006C4F; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 24px; height: 26.67px; left: 4px; top: 1.33px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; background: white; justify-content: space-between; align-items: flex-start; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #006C4F; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 21.33px; height: 25.75px; left: 5.33px; top: 3.03px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; background: white; justify-content: space-between; align-items: flex-start; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #006C4F; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 21.33px; height: 25.75px; left: 5.33px; top: 3.03px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; background: white; justify-content: space-between; align-items: flex-start; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #006C4F; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 21.33px; height: 25.75px; left: 5.33px; top: 3.03px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div style="align-self: stretch; justify-content: flex-start; align-items: flex-start; gap: 12px; display: inline-flex">
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #F97316; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 26.67px; height: 24px; left: 2.67px; top: 4px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #F97316; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 26.67px; height: 24px; left: 2.67px; top: 4px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #F97316; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 21.33px; height: 26.67px; left: 5.33px; top: 2.67px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #F97316; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 21.33px; height: 25.75px; left: 5.33px; top: 3.03px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div style="justify-content: flex-start; align-items: flex-start; gap: 12px; display: inline-flex">
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #06B6D4; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 21.33px; height: 25.75px; left: 5.33px; top: 3.03px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #06B6D4; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 21.33px; height: 25.75px; left: 5.33px; top: 3.03px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #06B6D4; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 21.33px; height: 25.75px; left: 5.33px; top: 3.03px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #06B6D4; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 21.33px; height: 25.75px; left: 5.33px; top: 3.03px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #06B6D4; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 21.33px; height: 25.75px; left: 5.33px; top: 3.03px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #06B6D4; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 21.33px; height: 25.75px; left: 5.33px; top: 3.03px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #06B6D4; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 21.33px; height: 25.75px; left: 5.33px; top: 3.03px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div style="justify-content: flex-start; align-items: flex-start; gap: 12px; display: inline-flex">
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #06B6D4; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 24px; height: 26.67px; left: 4px; top: 2.67px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">住院醫囑系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #06B6D4; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 29.33px; height: 20px; left: 1.33px; top: 6.67px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">住院醫囑系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #06B6D4; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 29.33px; height: 20px; left: 1.33px; top: 6.67px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">住院醫囑系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #06B6D4; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 29.33px; height: 20px; left: 1.33px; top: 6.67px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">住院醫囑系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #06B6D4; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 29.33px; height: 20px; left: 1.33px; top: 6.67px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">住院醫囑系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #06B6D4; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 29.33px; height: 20px; left: 1.33px; top: 6.67px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">住院醫囑系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div style="justify-content: flex-start; align-items: flex-start; gap: 12px; display: inline-flex">
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #EC4899; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 24px; height: 26.67px; left: 4px; top: 1.33px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #EC4899; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 24px; height: 26.67px; left: 4px; top: 1.33px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #EC4899; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 24px; height: 26.67px; left: 4px; top: 1.33px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #EC4899; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 24px; height: 26.67px; left: 4px; top: 1.33px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">系統權限系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #EC4899; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 24px; height: 26.67px; left: 4px; top: 2.67px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">考核管理</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #EC4899; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 24px; height: 26.67px; left: 4px; top: 1.33px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #EC4899; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 24px; height: 26.67px; left: 4px; top: 1.33px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-    <div style="width: 240px; height: 120px; padding-left: 12px; padding-right: 12px; padding-top: 16px; padding-bottom: 16px; background: white; box-shadow: 0px 2px 1px rgba(111, 121, 121, 0.25); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
-      <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; gap: 61px; display: inline-flex">
-        <div style="height: 48px; padding: 8px; background: #EC4899; border-radius: 4px; justify-content: space-between; align-items: flex-start; gap: 10px; display: flex">
-          <div style="width: 32px; height: 32px; position: relative; border-radius: 24px; overflow: hidden">
-            <div style="width: 32px; height: 32px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 24px; height: 26.67px; left: 4px; top: 1.33px; position: absolute; background: white"></div>
-          </div>
-        </div>
-        <div style="flex-direction: column; justify-content: flex-start; align-items: flex-end; gap: 10px; display: inline-flex">
-          <div style="width: 24px; height: 24px; position: relative">
-            <div style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute"></div>
-            <div style="width: 20px; height: 19px; left: 2px; top: 2px; position: absolute; background: #8D4F00"></div>
-          </div>
-          <div style="text-align: center; color: #707973; font-size: 15px; font-family: Noto Sans TC; font-weight: 500; line-height: 16px; word-wrap: break-word">V 1.1.0</div>
-        </div>
-      </div>
-      <div style="align-self: stretch; justify-content: center; align-items: center; gap: 4px; display: inline-flex">
-        <div style="flex: 1 1 0; color: #191C1A; font-size: 20px; font-family: Noto Sans TC; font-weight: 700; line-height: 28px; word-wrap: break-word">成人護理臨床作業系統</div>
-        <div style="width: 24px; height: 24px; position: relative">
-          <div style="width: 9.17px; height: 6px; left: 15px; top: 7px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; background: #191C1A"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
